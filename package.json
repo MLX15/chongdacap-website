@@ -1,0 +1,45 @@
+{
+  "name": "chongdacap-website",
+  "version": "0.0.1",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "heroku-ssl-redirect": "^0.1.1",
+    "lodash": "^4.17.15",
+    "node-sass": "^4.13.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phamleduy04/chongdacap-website.git"
+  },
+  "scripts": {
+    "heroku-postbuild": "react-scripts build && (cd backend && yarn)",
+    "start": "cd backend && yarn run start",
+    "dev": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "engines": {
+    "yarn": "1.x",
+    "node": "14.x"
+  },
+  "devDependencies": {}
+}
